@@ -15,9 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
 
   localStorage.setItem('player', input.value);
-  window.location = '../pages/game.html';
-  const model = '{name:"Stutis", time: "127"}';
-  localStorage.setItem('players', model);
+  window.location = '../pages/game.html';  
 };
 
 input.addEventListener('input', validateInput);
