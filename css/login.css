@@ -4,8 +4,10 @@
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background-color: aliceblue;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
 }
+
 
 .login-header {
   display: flex;
@@ -20,7 +22,7 @@
 }
 
 .login-header h1 {
-  color: #333;
+  color: whitesmoke;
   font-size: 1.5em;
 }
 
@@ -52,4 +54,8 @@
   cursor: auto;
   color: #aaa;
 
+}
+
+.login-button:hover {
+  background-color: #f34c40;
 }
