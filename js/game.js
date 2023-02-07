@@ -50,6 +50,7 @@ const checkEndGame = () => {
     // limpa o relogio e dispara alerta avisando o tempo de duração do jogo.
     clearInterval(this.loop);
     alert(`Parabéns, ${playerName}! Seu tempo foi de: ${playerTime} segundos`);
+    location.reload();
   }
 };
 
